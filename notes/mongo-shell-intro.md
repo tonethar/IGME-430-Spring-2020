@@ -165,18 +165,7 @@
   db.monsters.remove({ species: 'Bugbear' })
   ```
 
-
-16) Text Search
-
-  ```js
-  db.monsters.find({
-	$text:{
-		$search: "\"Bugbear\""
-	}
-  });
-  ```
-
-17) Quit the shell
+16) Quit the shell
 
     - type: `exit`
 
