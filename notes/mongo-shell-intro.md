@@ -7,46 +7,46 @@
  
  
 1) Install MongoDB
-  - https://docs.mongodb.com/manual/administration/install-community/
-  - don't miss the step where you create a "data/db" folder 
-  - also see "Setting up Mongo on Lab Machines" PDF in mycourses if you get stuck anywhere  
+    - https://docs.mongodb.com/manual/administration/install-community/
+    - don't miss the step where you create a "data/db" folder 
+    - also see "Setting up Mongo on Lab Machines" PDF in mycourses if you get stuck anywhere  
   
 2) Launch mongod
-  - `mongod` is the actual mongo *server*
-  - see install instructions above on how to launch for your OS
-  - On OS X I'll launch `mongod` by typing: `brew services start mongodb-community@4.2`
+    - `mongod` is the actual mongo *server*
+    - see install instructions above on how to launch for your OS
+    - On OS X I'll launch `mongod` by typing: `brew services start mongodb-community@4.2`
   
 3) Launch mongo
-  - the `mongo` utility is how we talk to the `mongod` server
-  - see install instructions above on how to launch for your OS
-  - on OS X I'll launch mongo by typing `mongo` 
+    - the `mongo` utility is how we talk to the `mongod` server
+    - see install instructions above on how to launch for your OS
+    - on OS X I'll launch mongo by typing `mongo` 
   
 4) See the default databases
-  - type: `show dbs`
-  - you should see `admin`, `local`, and `config`
-  - databases are used to group related *collections*
-  - each application we make is going to have its own database
-  - each database will have multiple collections
+    - type: `show dbs`
+    - you should see `admin`, `local`, and `config`
+    - databases are used to group related *collections*
+    - each application we make is going to have its own database
+    - each database will have multiple collections
   
 5) Create or switch databases
-  - type: `use game` - this creates a new database named `game` if it doesn't already exist
-  - type: `db` to see what the current database is
-  - You can delete the current database with `db.dropDatabase()`
+    - type: `use game` - this creates a new database named `game` if it doesn't already exist
+    - type: `db` to see what the current database is
+    - You can delete the current database with `db.dropDatabase()`
   
 6) Create and show a collection
-  - if you are familiar with SQL, a *collection* is analogous to a *table* (also to the columns of an Excel spreadsheet):
-    - https://www.cs.montana.edu/~halla/csci440/n3/figure-3-1.png
-  - type: `db.createCollection('players')` to create a new collection named `players`
-  - type: `show collections` to see the collections for the current database
+    - if you are familiar with SQL, a *collection* is analogous to a *table* (also to the columns of an Excel spreadsheet):
+      - https://www.cs.montana.edu/~halla/csci440/n3/figure-3-1.png
+    - type: `db.createCollection('players')` to create a new collection named `players`
+    - type: `show collections` to see the collections for the current database
   
 7) Insert a *document*
-  - if you are familiar with SQL, a *document* is analogous to a *tuple* (or *row* or *record*)
-  - https://docs.mongodb.com/manual/core/document/
-  - `db.*collectionName*.insert()` will add a document to a collection
-  - a document is a collection of *field : value* pairs
+    - if you are familiar with SQL, a *document* is analogous to a *tuple* (or *row* or *record*)
+    - https://docs.mongodb.com/manual/core/document/
+    - `db.*collectionName*.insert()` will add a document to a collection
+    - a document is a collection of *field : value* pairs
   
-```js
-db.players.insert({
+  ```js
+  db.players.insert({
 	name: 'Dak',
 	class: 'Ranger',
 	hitpoints: 100,
@@ -57,45 +57,45 @@ db.players.insert({
 	 	resistance: 8,
 	 	weight: 60
 	}
-})
-```
-	- above we inserted a document with `name`, `class`, `hitpoints`, `dateCreated`, `weapons`, and `armor` fields
-	- the data *types* we used were string, string, integer, datetime, array, and object
-  - the format of the data is very similar to JSON and is called BSON ("Binary JSON") - the primary difference is that it supports more datatypes that JOSN does:
-    - https://en.wikipedia.org/wiki/BSON
+  })
+  ```
+    - above we inserted a document with `name`, `class`, `hitpoints`, `dateCreated`, `weapons`, and `armor` fields
+    - the data *types* we used were string, string, integer, datetime, array, and object
+    - the format of the data is very similar to JSON and is called BSON ("Binary JSON") - the primary difference is that it supports more datatypes that JOSN does:
+      - https://en.wikipedia.org/wiki/BSON
 
 8) View the contents of a collection
-  - type: `db.players.find()`
-  - type: `db.players.find().pretty()` // "pretty printing"
-  - note the unique `_id` field
+    - type: `db.players.find()`
+    - type: `db.players.find().pretty()` // "pretty printing"
+    - note the unique `_id` field
 
 9) Insert another *document*
 
-```js
-db.players.insert({
+  ```js
+  db.players.insert({
 	name: 'Lothar',
 	class: 'Wizard',
 	hitpoints: 12,
 	magicpoints: 20
-})
-```
+  })
+  ```
 
-  - note that unlike when you work with database tables, when we add documents to a collection, they can have additional fields, or missing fields, compared to the other entries. This makes noSQL databases like Mongo much more flexible
-  - `db.players.find().pretty()`
-  - `db.players.find().count()`
-  - `db.players.find({class:'Wizard'}).pretty()`
-  - `db.players.find().sort({hitpoints: 1}).pretty()` // sorted by `hitpoints` ascending
-  - `db.players.find().sort({hitpoints: -1}).pretty()` // sorted by `hitpoints` descending
-  - `db.players.find({hitpoints: { $gt: 12}}).pretty()` // those with `hitpoints` greater than 12
-  - `db.players.find({hitpoints: { $gt: 12}}).count()`
+    - note that unlike when you work with database tables, when we add documents to a collection, they can have additional fields, or missing fields, compared to the other entries. This makes noSQL databases like Mongo much more flexible
+    - `db.players.find().pretty()`
+    - `db.players.find().count()`
+    - `db.players.find({class:'Wizard'}).pretty()`
+    - `db.players.find().sort({hitpoints: 1}).pretty()` // sorted by `hitpoints` ascending
+    - `db.players.find().sort({hitpoints: -1}).pretty()` // sorted by `hitpoints` descending
+    - `db.players.find({hitpoints: { $gt: 12}}).pretty()` // those with `hitpoints` greater than 12
+    - `db.players.find({hitpoints: { $gt: 12}}).count()`
  
 
 10) Insert multiple documents
 
-  - use `db.*collectionName*.insertMany()`
+    - use `db.*collectionName*.insertMany()`
 
-```js
-db.monsters.insertMany([
+  ```js
+  db.monsters.insertMany([
 	{
 		species: 'Orc',
 		hitdice: 2
@@ -108,66 +108,66 @@ db.monsters.insertMany([
 		species: 'Bugbear',
 		hitdice: 4
 	}
-])
-```
+  ])
+  ```
 
-  - above we actually created a new collection named `monsters`
-  - `db.monsters.find()`
-  - `db.monsters.find().limit(2).pretty()`  // just get the first 2
+    - above we actually created a new collection named `monsters`
+    - `db.monsters.find()`
+    - `db.monsters.find().limit(2).pretty()`  // just get the first 2
   
 12) foreach
 
-```js
-db.monsters.find().forEach(function(doc) {
-  print("Monster species: " + doc.species)
-})
-```
+  ```js
+  db.monsters.find().forEach(function(doc) {
+    print("Monster species: " + doc.species)
+  })
+  ```
 
 13) update document
 
-```js
-db.monsters.update({ species: 'Goblin' },
-{
+  ```js
+  db.monsters.update({ species: 'Goblin' },
+    {
 	$set:{
   	hitdice: 3,
-  }
-})
-```
+    }
+  })
+  ```
 
 14) Increment a field
 
-```js
-db.players.update({ name: 'Dak' },
-{
-  $inc: {
-    hitpoints: 10
-  }
-})
-```
+  ```js
+  db.players.update({ name: 'Dak' },
+  {
+    $inc: {
+      hitpoints: 10
+    }
+  })
+  ```
 
 15) Delete a document
 
-```js
-db.monsters.remove({ species: 'Bugbear' })
-```
+  ```js
+  db.monsters.remove({ species: 'Bugbear' })
+  ```
 
 
 16) Text Search
 
-```js
-db.monsters.find({
+  ```js
+  db.monsters.find({
 	$text:{
 		$search: "\"Bugbear\""
 	}
-});
-```
+  });
+  ```
 
 17) Quit the shell
 
-type: `exit`
+    - type: `exit`
 
 
 ## II. Homework
 
 - Easy!
-- 
+
