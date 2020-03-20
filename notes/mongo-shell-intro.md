@@ -42,7 +42,7 @@
 7) Insert a *document*
     - if you are familiar with SQL, a *document* is analogous to a *tuple* (or *row* or *record*)
     - https://docs.mongodb.com/manual/core/document/
-    - `db.*collectionName*.insert()` will add a document to a collection
+    - `db.<collection-name>.insert()` will add a document to a collection
     - a document is a collection of *field : value* pairs
   
   ```js
@@ -85,6 +85,7 @@
     - `db.players.find().pretty()`
     - `db.players.find().count()`
     - `db.players.find({class:'Wizard'}).pretty()`
+    - `db.players.find({_id: ObjectId('<objectID>')}).pretty()`
     - `db.players.find().sort({hitpoints: 1}).pretty()` // sorted by `hitpoints` ascending
     - `db.players.find().sort({hitpoints: -1}).pretty()` // sorted by `hitpoints` descending
     - `db.players.find({hitpoints: { $gt: 12}}).pretty()` // those with `hitpoints` greater than 12
@@ -112,9 +113,9 @@
   ])
   ```
 
-    - above we actually created a new collection named `monsters`
-    - `db.monsters.find()`
-    - `db.monsters.find().limit(2).pretty()`  // just get the first 2
+  - above we actually created a new collection named `monsters`
+  - `db.monsters.find()`
+  - `db.monsters.find().limit(2).pretty()`  // just get the first 2
   
 12) foreach
 
