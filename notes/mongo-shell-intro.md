@@ -17,7 +17,7 @@
     - On OS X I'll launch `mongod` by typing: `brew services start mongodb-community@4.2`
   
 3) Launch mongo
-    - the `mongo` utility is how we talk to the `mongod` server
+    - the `mongo` shell is how we talk to the `mongod` server
     - see install instructions above on how to launch for your OS
     - on OS X I'll launch mongo by typing `mongo` 
   
