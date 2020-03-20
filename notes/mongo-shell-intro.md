@@ -4,40 +4,53 @@
 
 - We're going to run through the C.R.U.D. (Create, Read, Update, Delete) operations of MongoDB 
  
- 
+<hr>
+
 1) Install MongoDB
     - https://docs.mongodb.com/manual/administration/install-community/
     - don't miss the step where you create a "data/db" folder 
     - also see "Setting up Mongo on Lab Machines" PDF in mycourses if you get stuck anywhere  
-  
+
+<hr>
+
 2) Launch mongod
     - `mongod` is the actual mongo *server*
     - see install instructions above on how to launch for your OS
     - On OS X I'll launch `mongod` by typing: `brew services start mongodb-community@4.2`
-  
+
+<hr>
+
 3) Launch mongo
     - the `mongo` shell is how we talk to the `mongod` server
     - see install instructions above on how to launch for your OS
     - on OS X I'll launch mongo by typing `mongo` 
-  
+
+<hr>
+
 4) See the default databases
     - type: `show dbs`
     - you should see `admin`, `local`, and `config`
     - databases are used to group related *collections*
     - each application we make is going to have its own database
     - each database will have multiple collections
-  
+
+<hr>
+
 5) Create or switch databases
     - type: `use game` - this creates a new database named `game` if it doesn't already exist
     - type: `db` to see what the current database is
     - You can delete the current database with `db.dropDatabase()`
-  
+
+<hr>
+
 6) Create and show a collection
     - if you are familiar with SQL, a *collection* is analogous to a *table* (also to the columns of an Excel spreadsheet):
       - https://www.cs.montana.edu/~halla/csci440/n3/figure-3-1.png
     - type: `db.createCollection('players')` to create a new collection named `players`
     - type: `show collections` to see the collections for the current database
-  
+
+<hr>
+
 7) Insert a *document*
     - if you are familiar with SQL, a *document* is analogous to a *tuple* (or *row* or *record*)
     - https://docs.mongodb.com/manual/core/document/
@@ -64,10 +77,14 @@
   - the format of the data is very similar to JSON and is called BSON ("Binary JSON") - the primary difference between the 2 formats is that BSON supports more datatypes that JSON does:
     - https://en.wikipedia.org/wiki/BSON
 
+<hr>
+
 8) View the contents of a collection
     - type: `db.players.find()`
     - type: `db.players.find().pretty()` // "pretty printing"
     - note the unique `_id` field
+
+<hr>
 
 9) Insert another *document*
 
@@ -90,6 +107,7 @@
   - `db.players.find({hitpoints: { $gt: 12}}).pretty()` // those with `hitpoints` greater than 12
   - `db.players.find({hitpoints: { $gt: 12}}).count()`
  
+<hr>
 
 10) Insert multiple documents
 
@@ -115,8 +133,10 @@
   - above we actually created a new collection named `monsters`
   - `db.monsters.find()`
   - `db.monsters.find().limit(2).pretty()`  // just get the first 2
-  
-12) foreach
+
+<hr>
+
+11) foreach
 
   ```js
   db.monsters.find().forEach(function(doc) {
@@ -124,7 +144,9 @@
   })
   ```
 
-13) update document
+<hr>
+
+12) update document
 
   - first match:
 
@@ -146,8 +168,10 @@
       }
     })
   ```
-  
-14) Increment a field
+
+<hr>
+
+13) Increment a field
 
   ```js
   db.players.update({ name: 'Dak' },
@@ -158,16 +182,21 @@
   })
   ```
 
-15) Delete a document
+<hr>
+
+14) Delete a document
 
   ```js
   db.monsters.remove({ species: 'Bugbear' })
   ```
 
-16) Quit the shell
+<hr>
+
+15) Quit the shell
 
     - type: `exit`
 
+<hr>
 
 ## II. Homework
 
