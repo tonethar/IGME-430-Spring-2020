@@ -3,7 +3,6 @@
 ## I. MongoDB Demo
 
 - We're going to run through the C.R.U.D. (Create, Read, Update, Delete) operations of MongoDB 
-- The video is located here: 
  
  
 1) Install MongoDB
