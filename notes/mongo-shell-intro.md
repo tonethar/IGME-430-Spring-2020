@@ -59,6 +59,7 @@
 	}
   })
   ```
+  
     - above we inserted a document with `name`, `class`, `hitpoints`, `dateCreated`, `weapons`, and `armor` fields
     - the data *types* we used were string, string, integer, datetime, array, and object
     - the format of the data is very similar to JSON and is called BSON ("Binary JSON") - the primary difference is that it supports more datatypes that JOSN does:
