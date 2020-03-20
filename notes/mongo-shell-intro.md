@@ -127,6 +127,8 @@
 
 13) update document
 
+  - first match:
+
   ```js
   db.monsters.update({ species: 'Goblin' },
     {
@@ -135,7 +137,17 @@
     }
   })
   ```
-
+  - all matches:
+  
+  ```js
+    db.monsters.updateMany({ species: 'Goblin' },
+    {
+      $set:{
+	hitdice: 10,
+      }
+    })
+  ```
+  
 14) Increment a field
 
   ```js
