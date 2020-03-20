@@ -81,20 +81,20 @@
   })
   ```
 
-    - note that unlike when you work with database tables, when we add documents to a collection, they can have additional fields, or missing fields, compared to the other entries. This makes noSQL databases like Mongo much more flexible
-    - `db.players.find().pretty()`
-    - `db.players.find().count()`
-    - `db.players.find({class:'Wizard'}).pretty()`
-    - `db.players.find({_id: ObjectId('<objectID>')}).pretty()`
-    - `db.players.find().sort({hitpoints: 1}).pretty()` // sorted by `hitpoints` ascending
-    - `db.players.find().sort({hitpoints: -1}).pretty()` // sorted by `hitpoints` descending
-    - `db.players.find({hitpoints: { $gt: 12}}).pretty()` // those with `hitpoints` greater than 12
-    - `db.players.find({hitpoints: { $gt: 12}}).count()`
+  - note that unlike when you work with database tables, when we add documents to a collection, they can have additional fields, or missing fields, compared to the other entries. This makes noSQL databases like Mongo much more flexible
+  - `db.players.find().pretty()`
+  - `db.players.find().count()`
+  - `db.players.find({class:'Wizard'}).pretty()`
+  - `db.players.find({_id: ObjectId('<objectID>')}).pretty()`
+  - `db.players.find().sort({hitpoints: 1}).pretty()` // sorted by `hitpoints` ascending
+  - `db.players.find().sort({hitpoints: -1}).pretty()` // sorted by `hitpoints` descending
+  - `db.players.find({hitpoints: { $gt: 12}}).pretty()` // those with `hitpoints` greater than 12
+  - `db.players.find({hitpoints: { $gt: 12}}).count()`
  
 
 10) Insert multiple documents
 
-    - use `db.*collectionName*.insertMany()`
+    - use `db.<collection-name>.insertMany()`
 
   ```js
   db.monsters.insertMany([
