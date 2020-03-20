@@ -171,5 +171,11 @@
 
 ## II. Homework
 
-- Easy!
+- Super Easy, barely an inconvenience:
+  - add a `magicitems` collection
+  - documents in the `magicitems` collection will have 3 fields: `name` (a string), `magicStrength` (an integer), `valueInGold` (an integer)
+  - create 3 documents and add them to `magicitems` - initialize the field values to something meaningful
+  - execute a `find().pretty()` command so that their values are dumped to the console
+  - take a screen shot of the console
+  - post the screenshot to myCourses
 
