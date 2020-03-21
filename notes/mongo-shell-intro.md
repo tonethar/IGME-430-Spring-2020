@@ -2,7 +2,8 @@
 
 ## I. MongoDB Demo
 
-- We're going to run through the C.R.U.D. (Create, Read, Update, Delete) operations of MongoDB 
+- We're going to run through the C.R.U.D. (Create, Read, Update, Delete) operations of MongoDB:
+  - https://docs.mongodb.com/manual/crud/
  
 <hr>
 
