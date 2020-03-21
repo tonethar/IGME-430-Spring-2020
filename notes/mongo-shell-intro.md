@@ -1,5 +1,7 @@
 # MongoDB - Intro to mongo shell
 
+- The video for this demo is here --> [MongoDB - Intro to mongo shell (17:51)](https://video.rit.edu/Watch/rm2-intro-to-mongodb-shell)
+
 ## I. MongoDB Demo
 
 - We're going to run through the C.R.U.D. (Create, Read, Update, Delete) operations of MongoDB:
