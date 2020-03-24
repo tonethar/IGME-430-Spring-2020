@@ -31,10 +31,11 @@
         - 4) complete and submit the work prior to the expiration of your dropbox exception
  
 ## V. The Final Project
-- Project 2 and 3​ will now be combined into a single, larger project Given the time constraints we now face, it is unreasonable to ask everyone to do two complete projects. 
-- Instead, you will complete one that is slightly larger than either of the two. This project will be worth 40% of your grade (Project 2 was worth 15% and Project 3 was worth 25%), and a portion of that grade will be your completion of the "Milestone"
+- Projects 2 and 3 will now be combined into a single, larger project Given the time constraints we now face, it is unreasonable to ask everyone to do two complete projects. 
+- Instead, you will complete one "Final Project" that is slightly larger than either of the two. This project will be worth 40% of your grade (Project 2 was worth 15% and Project 3 was worth 25%), and a portion of that grade will be your completion of the "Milestone"
 - Project details are listed on the course website:
-  - https://people.rit.edu/arwigm/430/​You will be expected to create a Product/Service using MVC and React
+  - https://people.rit.edu/arwigm/430/
+  - what is this project about? You will be expected to create a Product/Service using MV* and React
   - I am no longer allowing groups for this project
 
 ## V. Questions & Concerns
