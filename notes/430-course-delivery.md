@@ -1,4 +1,4 @@
-# 430 Course Delivery
+# 430 Course Delivery Notes
 
 ## I. Overview
 
