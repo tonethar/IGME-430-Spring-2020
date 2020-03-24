@@ -14,7 +14,7 @@
   - Week 10 (Thursday 3/26) - will be on 430 Discord channel during regularly scheduled classtime
   - Week 11 (Tuesday 3/31 & Thursday 4/2) - will be on 430 Discord channel during regularly scheduled classtime
 
-## III. Homework​Assignments​ 
+## III. Homework Assignments
  - will remain mostly unchanged other than that they have been pushed back to account for the missing week of classes
  - much of the optional content of the course has been pruned so that you can focus on the final project
  - I do understand that with 2 weeks off, some of you might be feeling a little "rusty", so I created two very simple HW assignments that are due soon (Mongo HW & Handlebars HW, both with accompanying videos - see the Assignments section of myCourses):
