@@ -17,7 +17,7 @@
 ## III. Homework Assignments
  - will remain mostly unchanged other than that they have been pushed back to account for the missing week of classes
  - much of the optional content of the course has been pruned so that you can focus on the final project
- - I do understand that with 2 weeks off, some of you might be feeling a little "rusty", so I created two very simple HW assignments that are due soon ([Mongo HW](./mongo-shell-intro.md) & [Express/Handlebars HW](./express-handlebars-demo.md), both with accompanying videos - see the Assignments section of myCourses):
+ - I do understand that with 2 weeks off, some of you might be feeling a little "rusty", so I created two very simple HW assignments that are due soon - **Mongo HW** & **Express/Handlebars HW**, both with accompanying videos - see the Assignments section of myCourses):
    - these are designed as a "reality check" on your current ability (based on these unforeseen circumstances) to do work remotely for this course
    - recall that under the course rubric, homework is 50% of your final 430 grade, and the completion of HW assignments is also essential to your preparation for the final project
    - if you are unable to complete these 2 assignments in a timely manner, you must immediately contact me to discuss your options regarding continuing in this course
