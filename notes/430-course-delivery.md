@@ -3,7 +3,7 @@
 ## I. Overview
 
 - For the rest of the semester, to give you all maximum flexibility as to when to access course lectures, all course content will be delivered asynchronously via pre-recorded videos and HW assignments
-- Lectures​ will remain much the same as they were during our in-person meetings. I will record myself going through the demos, explaining things as I go. These videos will be posted to the *MyCourses *Videos & Links (post break)* content section on a weekly basis
+- Lectures​ will remain much the same as they were during our in-person meetings. I will record myself going through the demos, explaining things as I go. These videos will be posted to the MyCourses *Videos & Links (post break)* content section on a weekly basis
 - This format is beneficial to those of you who are living in other time zones, lacking high-speed connectivity, or having to share a personal computer or quiet space with other household members during normal working hours.
 - Other than an occasional "all hands" meeting during our originally scheduled class meeting time, we are NOT using a synchronous approach where all the students are required to meet online at the same time.
 
