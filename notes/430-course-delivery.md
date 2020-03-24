@@ -42,5 +42,5 @@
 - I believe the above to be the best way to maintain the level of education that you deserve and will need for your careers while doing everything I can to not overload people. I know there is a lot of anxiety right now, and even with the reduction from two projects to one, things could still feel difficult if you are uncomfortable with the topics. Know that I am aware of this, and it will be factored into my grading of that project. 
 - **Important -->** be sure to fill out the *"How are we all working: technology, Internet and space??"* survey in myCourses:
   - it closes 11:59PM tonight (3/24/20) 
-  - if you do not fill it out, I will be emailing you sending an alert through Starfish (advising)
+  - if you do not fill it out, I will be emailing you tomorrow and sending an alert through Starfish (advising)
 - What questions do you have? What else do I need to address?
