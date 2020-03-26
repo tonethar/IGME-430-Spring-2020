@@ -25,6 +25,8 @@
 - Download the start files, `cd` into the folder, and do an `npm install`
 - In GitBash/PowerShell - start up `mongod` (the MongoDB *server*)
 
+<hr>
+
 ### III-A. Take a look at package.json
   - "mongoose" is a "dependencies" key
   - the mongoose package allows our app to use JS to talk to MongoDB
