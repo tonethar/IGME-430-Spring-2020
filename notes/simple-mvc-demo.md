@@ -528,16 +528,7 @@ const updateLast = (req, res) => {
 
 ## VII. Deploy to Heroku
 
-
-
-
-
-
-
-
-MONGO IS A DIFFERENT SERVER THAN YOUR SERVER - it’s only responsible for running your data
-
-VII. Deploy to Heroku
+### Deploy to Heroku
 
 - connect to github
 - resources tab:
