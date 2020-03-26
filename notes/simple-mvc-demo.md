@@ -1,8 +1,11 @@
 
-# I. SimpleMVC Walkthrough
+# SimpleMVC Walkthrough
+
+## I. Overview
 - This demo gives you experiences with:
   - MongoDB and Mongoose
   - Handlebars
+  - Express
 - You should have already gone through these demos/HW:
   - [Intro to MongoDB Video & HW](./mongo-shell-intro.md)
   - [Intro to Handlebars Video & HW](./express-handlebars-demo.md)
