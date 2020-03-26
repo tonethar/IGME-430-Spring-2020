@@ -5,15 +5,9 @@
 - Handlebars works similar to Vue.js (330), *except* the rendering is happening on the server-side instead of the client-side
 - Today's start code was adapted from here:
   - https://github.com/ericf/express-handlebars
-- Head to myCourses for the ZIP 
 
 ## II. Handlebars Reference
 
-- Start Code:
-  - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates
-  - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates-done
-
-Reference:
 - handlebars:
   - https://handlebarsjs.com
   - https://www.npmjs.com/package/express-handlebars
@@ -24,14 +18,14 @@ Reference:
 
 ## III. Demo & HW
 
-1) Grab the basic-handlebars-start ZIP file
+1) Grab the **basic-handlebars-start** ZIP file from myCourses
 
 2) Watch these 2 videos:
 
     - [Handlebars -1 (12:42)](https://video.rit.edu/hapi/v1/contents/permalinks/430-handlebars-1/view)
-    - [Handlebars - 2 (06:37)](https://video.rit.edu/hapi/v1/contents/permalinks/430-handlebars-2/view)
+    - [Handlebars -2 (06:37)](https://video.rit.edu/hapi/v1/contents/permalinks/430-handlebars-2/view)
 
-3) Modify server.js to point at a "/favorites" page
+3) Modify **server.js** to point at a "/favorites" page
 
 4) In the **views/** folder, create **favorites.handlebars**, and on it:
 
