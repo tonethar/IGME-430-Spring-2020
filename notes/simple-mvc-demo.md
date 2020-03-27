@@ -10,7 +10,8 @@
   - [Intro to MongoDB Video & HW](./mongo-shell-intro.md)
   - [Intro to Handlebars Video & HW](./express-handlebars-demo.md)
 - The videos for this demo are here:
-  - coming soon
+  - [Simple MVC - 1 (04:46)](https://video.rit.edu/Watch/430-simple-mvc-1)
+  - [Simple MVC - 2 (11:22)](https://video.rit.edu/Watch/430-simple-mvc-2)
   - ...
   
 <hr><hr>
