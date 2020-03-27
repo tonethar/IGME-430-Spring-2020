@@ -9,7 +9,7 @@
 
 
 ## II. Getting Help
-- I will be active on Discord and Email as often as I can to answer questions that come up. If you are not currently in the discord, I HIGHLY recommend joining: ​https://discord.gg/BArWmBR
+- I will be active on Discord and Email as often as I can to answer questions that come up. If you are not currently in the Discord, I HIGHLY recommend joining: ​https://discord.gg/BArWmBR
 - Office Hours
   - Week 10 (Thursday 3/26)
     - will be on the 430 Discord channel and available via Zoom from 11AM-Noon, and from 2PM-4PM
