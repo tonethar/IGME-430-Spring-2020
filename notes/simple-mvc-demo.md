@@ -32,6 +32,7 @@
   - "mongoose" is a "dependencies" key
   - the mongoose package allows our app to use JS to talk to MongoDB
   - https://www.npmjs.com/package/mongoose
+  - https://mongoosejs.com/docs/queries.html
   
 <hr>
 
