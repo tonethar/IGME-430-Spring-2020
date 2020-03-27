@@ -268,6 +268,7 @@ const readAllCats = (req, res, callback) => {
   // The find function returns an array of matching objects
   // The lean function will force find to return data in the js
   // object format, rather than the Mongo document format.
+  // https://mongoosejs.com/docs/queries.html
   Cat.find(callback).lean();
 };
 ```
