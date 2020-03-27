@@ -12,7 +12,8 @@
 - The videos for this demo are here:
   - [Simple MVC - 1 (04:46)](https://video.rit.edu/Watch/430-simple-mvc-1)
   - [Simple MVC - 2 (11:22)](https://video.rit.edu/Watch/430-simple-mvc-2)
-  - ...
+  - [Simple MVC - 3 (09:59)](https://video.rit.edu/Watch/430-simple-mvc-3)
+  - [Simple MVC - 4 (16:44)](https://video.rit.edu/Watch/430-simple-mvc-4)
   
 <hr><hr>
 
