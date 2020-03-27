@@ -11,8 +11,8 @@
 ## II. Getting Help
 - I will be active on Discord and Email as often as I can to answer questions that come up. If you are not currently in the discord, I HIGHLY recommend joining: ​https://discord.gg/BArWmBR
 - Office Hours
-  - Week 10 (Thursday 3/26) - will be on 430 Discord channel during regularly scheduled classtime
-  - Week 11 (Tuesday 3/31 & Thursday 4/2) - will be on 430 Discord channel during regularly scheduled classtime
+  - Week 10 (Thursday 3/26) - will be on the 430 Discord channel and available via Zoom from 11AM-Noon, and from 2PM-4PM
+  - Week 11 (Tuesday 3/31 & Thursday 4/2) - will be on the 430 Discord channel and available via Zoom from 11AM-Noon, and from 2PM-4PM
 
 ## III. Homework Assignments
  - will remain mostly unchanged other than that they have been pushed back to account for the missing week of classes
