@@ -4,14 +4,14 @@
 
 
 
-## Domomaker-A  - Tips
+## Domomaker-A  ... things to watch for
 - pretty straight forward, just type the code in, carefully ...
 - run the project with  `npm run nodemon` so that it re-boots every time you make an edit
 - also run `npm test` a lot to catch your typos early
 
 
 
-## Domomaker-B - Tips
+## Domomaker-B ... things to watch for
 - follow the instructions, and run the app with  `npm run nodemon` whenever it tells you to test the app to be sure it works
 - also run `npm test` a lot to catch your typos early
 - if you get ‘undefined’ errors, your imports and exports are likely off, or you misspelled a property. Logging out values like this will help with debugging:
