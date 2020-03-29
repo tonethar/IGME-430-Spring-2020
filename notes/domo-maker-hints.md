@@ -14,7 +14,8 @@
 ## Domomaker-B - Tips
 - follow the instructions, and run the app with  `npm run nodemon` whenever it tells you to test the app to be sure it works
 - also run `npm test` a lot to catch your typos early
-- if you get ‘undefined’ errors, your imports and exports are likely off, or you misspelled a property. Logging out values like this will help with debugging - `console.log(`Domo = ${Domo}, filename=${__filename}`);`
+- if you get ‘undefined’ errors, your imports and exports are likely off, or you misspelled a property. Logging out values like this will help with debugging:
+  - `console.log(\`Domo = ${Domo}, filename=${__filename}\`);`
 - In step #11, you’ll need to put that code into a new file in the **models** folder named **Domo.js**
 - In step #15, you’ll need to put that code into the **Domo.js** file located in the **controllers** folder 
 - in step #17, you need to login (after the server restarts) before you can add a new Demo. You can make sure you are getting new domos added by heading to terminal/gitbash/powershell/whatever:
