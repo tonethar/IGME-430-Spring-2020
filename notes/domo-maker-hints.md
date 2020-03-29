@@ -18,9 +18,9 @@
   - ``console.log(`Domo = ${Domo}, filename=${__filename}`);``
 - In step #11, you’ll need to put that code into a new file in the **models** folder named **Domo.js**
 - In step #15, you’ll need to put that code into the **Domo.js** file located in the **controllers** folder 
-- in step #17, you need to login (after the server restarts) before you can add a new Demo. You can make sure you are getting new domos added by heading to terminal/gitbash/powershell/whatever:
+- in step #17, you need to login (after the server restarts) before you can add a new Domo. You can make sure you are getting new Domos added by heading to terminal/gitbash/powershell/whatever:
     - run `mongo` in another shell window
     - `use DomoMaker`
     - `db.domos.find().pretty()`
-    - if you try to add a demo without logging in, it throws an error
+    - PS - if you try to add a Domo without logging in, it throws an error
 - the rest is pretty straightforward
