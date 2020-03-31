@@ -8,6 +8,8 @@
 - pretty straight forward, just type the code in, carefully ...
 - run the project with  `npm run nodemon` so that it re-boots every time you make an edit
 - also run `npm test` a lot to catch your typos early
+- after you deploy to Heroku, if things are not working, check the app logs from your console with:
+  - `heroku logs -t --app APP-NAME`
 
 
 
@@ -24,3 +26,24 @@
     - `db.domos.find().pretty()`
     - PS - if you try to add a Domo without logging in, it throws an error
 - the rest is pretty straightforward
+- after you deploy to Heroku, if things are not working, check the app logs from your console with:
+  - `heroku logs -t --app APP-NAME`
+  
+## Domomaker-C ... things to watch for 
+
+- Before you get started, follow the instructions in the “Setting up Redis for Local use” PDF in myCourses
+
+5) Don’t forget to start up `mongod`, and when you head to the browser, go to the “/“ path to login. 
+
+- Note: The instructions in step #5 refer to the fact that you need Redis “running for this”, and later on in step #6 it says “BUT keep Redis open”, and later on in step #8 it refers to Redials “running as a service”. You can ignore these directives because we have set up Redis the the cloud, not on our local machine,  per the “Setting up Redis for Local use” PDF.
+
+7) To run 2 instances of the server at the same time on different ports:
+  - kill the server, and then restart it with `npm start`  (NOT `npm run nodemon`)
+  - change the port number in the source code
+  - make a second powershell window and start the server with `npm start`
+
+
+8-10) Ignore these steps. They are only applicable if you have downloaded and installed Redis
+
+- after you deploy to Heroku, if things are not working, check the app logs from your console with:
+  - `heroku logs -t --app APP-NAME`
