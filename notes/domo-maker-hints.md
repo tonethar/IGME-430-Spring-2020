@@ -47,3 +47,10 @@
 
 - after you deploy to Heroku, if things are not working, check the app logs from your console with:
   - `heroku logs -t --app APP-NAME`
+  
+  
+  ## Domomaker-D ... things to watch for
+  
+  - Prior to beginning the Domomaker-D, watch the React videos by Austin:
+    - [React FSCs](https://youtu.be/kAMb0sEp9js https://youtu.be/kAMb0sEp9js) 
+    - [React Class Components](https://youtu.be/EzgxSVN-AzI )
