@@ -52,5 +52,5 @@
   ## Domomaker-D ... things to watch for
   
   - Prior to beginning the Domomaker-D, watch the React videos by Austin:
-    - [React FSCs](https://youtu.be/kAMb0sEp9js https://youtu.be/kAMb0sEp9js) 
-    - [React Class Components](https://youtu.be/EzgxSVN-AzI )
+    - [React FSCs](https://youtu.be/kAMb0sEp9js) 
+    - [React Class Components](https://youtu.be/EzgxSVN-AzI)
