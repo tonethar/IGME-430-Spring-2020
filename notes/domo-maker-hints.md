@@ -49,7 +49,7 @@
   - `heroku logs -t --app APP-NAME`
   
   
-  ## Domomaker-D ... things to watch for
+## Domomaker-D ... things to watch for
   
   - Prior to beginning the Domomaker-D, watch the React videos by Austin:
     - [React FSCs](https://youtu.be/kAMb0sEp9js) 
