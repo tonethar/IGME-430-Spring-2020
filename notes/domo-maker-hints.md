@@ -55,6 +55,8 @@
   
 ## Domomaker-D ... things to watch for
   
-  - Prior to beginning the Domomaker-D, watch the React videos by Austin:
-    - [React FSCs](https://youtu.be/kAMb0sEp9js) 
-    - [React Class Components](https://youtu.be/EzgxSVN-AzI)
+- Prior to beginning the Domomaker-D, watch the React videos by Austin:
+  - [React FSCs](https://youtu.be/kAMb0sEp9js) 
+  - [React Class Components](https://youtu.be/EzgxSVN-AzI)
+- You are not going to test any of the code until step #30, so type carefully!
+- Hopefully, the debugging will be easier in this part, in that most of the code you are creating here is running on the client-side, so you’ll be able to to put breakpoints and logs in the JS code, and then see the results in the web browser’s inspector
