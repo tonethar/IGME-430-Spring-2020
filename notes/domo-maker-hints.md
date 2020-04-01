@@ -34,8 +34,8 @@
 - Before you get started, follow the instructions in the “Setting up Redis for Local use” PDF in myCourses
 
 - In step #3, typing this line in *app.js*: 
-  - `redisPASS = redisURL.auth.split(':')[1];` ESLint error, since it wants you to use array destructuring
-  - type this instead: `[, redisPASS] = redisURL.auth.split(':');`
+  - `redisPASS = redisURL.auth.split(':')[1];` throws an ESLint error, since it wants you to use [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+  - to get rid of the error, type this instead: `[, redisPASS] = redisURL.auth.split(':');`
 
 - In step #5, don’t forget to start up `mongod`, and when you head to the browser, go to the “/“ path to login. 
 
