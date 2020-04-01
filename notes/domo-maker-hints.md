@@ -33,6 +33,10 @@
 
 - Before you get started, follow the instructions in the “Setting up Redis for Local use” PDF in myCourses
 
+- In step #3, typing this line in *app.js*: 
+  - `redisPASS = redisURL.auth.split(':')[1];` ESLint error, since it wants you to use array destructuring
+  - type this instead: `[, redisPASS] = redisURL.auth.split(':');`
+
 - In step #5, don’t forget to start up `mongod`, and when you head to the browser, go to the “/“ path to login. 
 
 - Note: The instructions in step #5 refer to the fact that you need Redis “running for this”, and later on in step #6 it says “BUT keep Redis open”, and later on in step #8 it refers to Redis “running as a service”. You can ignore these directives because we have set up Redis the the cloud, not on our local machine,  per the “Setting up Redis for Local use” PDF.
