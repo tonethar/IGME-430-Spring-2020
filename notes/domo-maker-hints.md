@@ -56,7 +56,7 @@
 ## Domomaker-D ... things to watch for
   
 - Prior to beginning the Domomaker-D, watch these React videos:
-  - [LinkedIn Learning - *Learning React.js*](https://www.linkedin.com/learning/learning-react-js-4)(47 minutes long) - this is a really great intro to the fundamentals of React - be sure to grab the provided Exercise files 
+  - [LinkedIn Learning - *Learning React.js*](https://www.linkedin.com/learning/learning-react-js-4) (47 minutes long) - this is a really great intro to the fundamentals of React - be sure to grab the provided Exercise files 
   - [*React FSCs* (by Austin)](https://youtu.be/kAMb0sEp9js) 
   - [*React Class Components* (by Austin)](https://youtu.be/EzgxSVN-AzI)
 - You are not going to test any of the code until step #30, so type carefully!
