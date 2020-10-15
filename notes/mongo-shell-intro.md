@@ -8,6 +8,9 @@
     
 ![screenshot](./_images/intro-mongo-shell-1.png)
   
+    - now you can follow along with the demo below
+    - I am using the `mongo` application and Terminal, while you are using the shell built into **MongoDB Compass**, but the commands you will type in are the same
+    - Complete the HW (detailed at the end of this page)
   
 <hr>
   
