@@ -1,6 +1,9 @@
 # MongoDB - Intro to mongo shell
 
 - The video for this demo is here --> [MongoDB - Intro to mongo shell (17:51)](https://video.rit.edu/Watch/rm2-intro-to-mongodb-shell)
+- also see:
+  - "Setting up Mongo on Lab Machines" PDF in  Week 7 of myCourses
+  - "MongoDBCloudSetup" PDF in  Week 7 of myCourses
 
 ## I. MongoDB Demo
 
