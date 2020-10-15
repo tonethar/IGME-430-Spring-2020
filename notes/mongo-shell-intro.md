@@ -2,8 +2,15 @@
 
 - The video for this demo is here --> [MongoDB - Intro to mongo shell (17:51)](https://video.rit.edu/Watch/rm2-intro-to-mongodb-shell)
 - also see:
-  - "Setting up Mongo on Lab Machines" PDF in  Week 7 of myCourses
-  - "MongoDBCloudSetup" PDF in  Week 7 of myCourses
+  - the above video demo is using the `mongo` & `mongod` applications in Terminal (Powershell, etc), but this semester we are doing everything in the Mongo Cloud, so you need to do the following:
+    - Complete the "MongoDBCloudSetup" PDF in  Week 7 of myCourses - this walks you though setting up a cloud account for Mongo. Be sure to download and setup the **MongoDB Compass** application as specified in the instructions. For now you can skip over the last section of the PDF that shows how to hook up MongoDB with Heroku.
+    - At the bottom of the **MongoDB Compass** Application, go ahead and open up the provided Mongo shell - see "_MongoSH Beta" in the screenshot below:
+    
+[!screeshot](./_images/intro-mongo-shell-1.png)
+  
+  
+<hr>
+  
 
 ## I. MongoDB Demo
 
