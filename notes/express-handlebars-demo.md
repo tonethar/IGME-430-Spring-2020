@@ -45,3 +45,7 @@
 6) modify **home.handlebars** and **other.handlebars** to have a link to "favorites"
 
 7) When you are done, ZIP and POST the done folder to the myCourse dropbox
+
+<hr>
+
+![screenshot](./_images/intro-handlebars-1.png)
