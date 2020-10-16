@@ -48,4 +48,6 @@
 
 <hr>
 
+**Completed Example:**
+
 ![screenshot](./_images/intro-handlebars-1.png)
