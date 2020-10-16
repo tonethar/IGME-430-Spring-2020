@@ -30,8 +30,8 @@
 4) In the **views/** folder, create **favorites.handlebars**, and on it:
 
     - add links to the "other" and "home" pages
-    - give it a `pageTitle` inside of a <h1></h1>
-    - render a &lt;ul> list of hypertext links that point at some game companies - the data is in this format:
+    - give it a `pageTitle` inside of a `<h1></h1>`
+    - render a `<ul>` list of hypertext links that point at some game companies - the data is in this format:
   
   ```js
   [
