@@ -18,7 +18,7 @@
 
 ## III. Demo & HW
 
-1) Grab the **basic-handlebars-start** ZIP file from myCourses
+1) Grab the [**basic-handlebars-start.zip**](_files/basic-handlebars-start.zip) file
 
 2) Watch these 2 videos:
 
