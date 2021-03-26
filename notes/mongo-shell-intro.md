@@ -208,7 +208,15 @@
 
 <hr>
 
-15) Quit the shell
+15) Delete the database
+
+```js
+db.dropDatabase()
+```
+
+<hr>
+
+16) Quit the shell
 
     - type: `exit`
 
