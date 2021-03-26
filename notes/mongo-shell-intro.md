@@ -74,7 +74,7 @@
     - a document is a collection of *field : value* pairs
   
   ```js
-  db.players.insert({
+  db.players.insertOne({
 	name: 'Dak',
 	class: 'Ranger',
 	hitpoints: 100,
@@ -105,7 +105,7 @@
 9) Insert another *document*
 
   ```js
-  db.players.insert({
+  db.players.insertOne({
 	name: 'Lothar',
 	class: 'Wizard',
 	hitpoints: 12,
@@ -167,7 +167,7 @@
   - first match:
 
   ```js
-  db.monsters.update({ species: 'Goblin' },
+  db.monsters.updateOne({ species: 'Goblin' },
     {
 	$set:{
   	hitdice: 3,
@@ -190,7 +190,7 @@
 13) Increment a field
 
   ```js
-  db.players.update({ name: 'Dak' },
+  db.players.updateOne({ name: 'Dak' },
   {
     $inc: {
       hitpoints: 10
@@ -203,7 +203,7 @@
 14) Delete a document
 
   ```js
-  db.monsters.remove({ species: 'Bugbear' })
+  db.monsters.deleteOne({ species: 'Bugbear' })
   ```
 
 <hr>
