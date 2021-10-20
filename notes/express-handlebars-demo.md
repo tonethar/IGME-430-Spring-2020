@@ -1,10 +1,12 @@
-# Express Handlebars Demo/HW
+# HW & Demo - Express Handlebars
 
 ## I. Overview
 
 - Handlebars works similar to Vue.js (330), *except* the rendering is happening on the server-side instead of the client-side
 - Today's start code was adapted from here:
   - https://github.com/ericf/express-handlebars
+
+<hr>
 
 ## II. Handlebars Reference
 
