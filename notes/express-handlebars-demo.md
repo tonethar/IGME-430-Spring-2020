@@ -22,7 +22,7 @@
 
 1) Grab the [**basic-handlebars-start.zip**](_files/basic-handlebars-start.zip) file
 
-2) Watch these 2 videos:
+2) Watch these 2 videos (I was tired when I recorded these - watching at 1.25x or 1.5x is recommended!):
 
     - [Handlebars -1 (12:42)](https://video.rit.edu/hapi/v1/contents/permalinks/430-handlebars-1/view)
     - [Handlebars -2 (06:37)](https://video.rit.edu/hapi/v1/contents/permalinks/430-handlebars-2/view)
