@@ -23,9 +23,11 @@
 <hr>
 
 1) Install MongoDB
-    - https://docs.mongodb.com/manual/administration/install-community/
-    - don't miss the step where you create a "data/db" folder 
-    - also see "Setting up Mongo on Lab Machines" PDF in mycourses if you get stuck anywhere  
+    - Windows:
+        - See "Setting up Mongo on Lab Machines" PDF in myCourses
+        - Also see "MongoDBCloudSetup" PDF in myCourses
+        - https://docs.mongodb.com/manual/administration/install-community/
+        - don't miss the step where you create a "data/db" folder 
     - Mac Users need to use the Homebrew package management software:
       - https://stackoverflow.com/questions/57856809/installing-mongodb-with-homebrew
       - https://github.com/mongodb/homebrew-brew
