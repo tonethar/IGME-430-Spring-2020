@@ -32,7 +32,7 @@
 2) Launch mongod
     - `mongod` is the actual mongo *server*
     - see install instructions above on how to launch for your OS
-    - On OS X I'll launch `mongod` by typing: `brew services start mongodb-community@4.2`
+    - On OS X I'll launch `mongod` by typing: `brew services start mongodb-community`
 
 <hr>
 
