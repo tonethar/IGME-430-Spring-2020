@@ -22,6 +22,10 @@
 
 1) Grab the [**basic-handlebars-start.zip**](_files/basic-handlebars-start.zip) file
 
+- You need to make one small change to the **server.js** start code - the `express-handlebars` API has chnaged since these videos were recorded:
+  - Change this --> `app.engine('handlebars', exphbs());`
+  - To this --> `app.engine('handlebars', exphbs.engine());`
+
 2) Watch these 2 videos (I was tired when I recorded these - watching at 1.25x or 1.5x is recommended!):
 
     - [Handlebars -1 (12:42)](https://video.rit.edu/hapi/v1/contents/permalinks/430-handlebars-1/view)
