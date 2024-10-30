@@ -6,7 +6,7 @@
     - Complete the "MongoDBCloudSetup" PDF in myCourses - this walks you though setting up a cloud account for Mongo. Be sure to download and setup the **MongoDB Compass** application as specified in the instructions. For now you can skip over the last section of the PDF that shows how to hook up MongoDB with Heroku.
     - At the bottom of the **MongoDB Compass** Application, go ahead and open up the provided Mongo shell - see "_MongoSH Beta" in the screenshot below:
     
-![screenshot](./_images/intro-mongo-shell-1.png)
+![screenshot](./_images/intro-mongo-shell-NEW-1.png)
   
   - now you can follow along with the demo below
   - in the video I am using the `mongo` application and Terminal, while you are using the shell built into **MongoDB Compass**, but the commands you will type in are the same
