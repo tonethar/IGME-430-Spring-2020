@@ -22,7 +22,7 @@
 
 1) Grab the [**basic-handlebars-start.zip**](_files/basic-handlebars-start.zip) file
 
-- IMPORTANT: You need to make one small change to the **server.js** start code - the `express-handlebars` API has chnaged since these videos were recorded:
+- IMPORTANT: You need to make one small change to the **server.js** start code - the `express-handlebars` API has changed since these videos were recorded:
   - Change this --> `app.engine('handlebars', exphbs());`
   - To this --> `app.engine('handlebars', exphbs.engine());`
 
